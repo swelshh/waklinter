@@ -23,7 +23,7 @@ You will also need to have a copy of underscore.js in your Modules folder.  In t
 Usage
 =========
 
-Just open any .js file in Wakanda Studio, paste in this code and run it.  Waklinter will scan through all the .js files in the project.  The first time it finds a .js file with an error it will display the errors in the console.
+Just open any .js file in Wakanda Studio, paste in this code and run it.  Waklinter will scan through all the .js files in the project.  The first time it finds a .js file with any errors it will display the errors in the console.
 
 ```javascript
 var waklinter = require("waklinter/waklinter");
