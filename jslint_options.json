@@ -1,0 +1,1 @@
+{  "browser": true,   "devel": true,   "indent": 4,   "maxerr": 100,   "nomen": true,   "passfail": false,   "plusplus": true,   "regexp": false,   "sloppy": false,   "unparam": true,   "vars": false,   "white": true}

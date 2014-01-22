@@ -1,0 +1,20 @@
+{
+  "name": "waklinter",
+  "description": "server side script to jslint all the js files in a project",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swelshh/Wakanda-Tab-Delim-Import"
+  },
+  "author": "Welsh Harris <welsh@corebitsdw.com> (https://github.com/swelshh)",
+  "keywords": ["wakanda", "ssjs", "jslint"]
+  "main": "waklinter/waklinter",
+  "dependncies": {
+  	"underscore": ">= 1.5.2",
+  	"jslint": ">= 2013-11-23"
+  }
+  "engines": {
+    "wakanda": "*"
+  },
+  "license": "MIT"
+}
