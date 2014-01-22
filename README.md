@@ -8,7 +8,12 @@ Installation
 
 You should put the waklinter folder in your Project/Modules folder.
 
-You will also need to download a copy of jslint.js and put it in the waklinter folder.
+You will also need to download a copy of jslint.js and put it in the waklinter folder.  And you'll need to make one small modification to jslint.js.  The very first line of code needs to be changed:
+
+```javascript
+//var JSLINT = (function () { //change from this
+exports.JSLINT = (function () { //to this
+```
 
 You will also need to have a copy of underscore.js in your Modules folder.  In the end you should have this:
 
